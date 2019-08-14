@@ -1,0 +1,239 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans";
+}
+
+html,body{
+    height: 100%;
+}
+
+    .center{
+        width: 100%;
+        margin: 0 auto;        
+    }
+
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: #212343;
+    }
+
+    .header img{
+        padding-left: 2.5%;
+        margin: 19px;
+        cursor: pointer;
+    }
+
+    .banner{
+        margin-top: -4px;
+        width: 100%;
+        height: 557px;
+        background-image: url("../yp1/header_bg.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner > .center{
+        height: 100%;
+    }
+
+    .form{
+        color: #999999;
+        font-size: 18px;
+        margin-right: 3%;
+        padding: 10px;        
+        width: 400px;
+        height: calc(100% + 30px);
+        position:relative;
+        top:-15px;
+        background-color: white;
+        border: 10px solid #ccc;
+        float: right;
+    }
+
+    .form h3{
+        padding-top: 10px;
+        font-weight: normal;
+        color: #999999;
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+
+    .form input[type=text]{        
+        margin-top: 4px;
+        margin-bottom: 16px;
+        width: 335px;
+        height: 55px;
+        border: 1px solid #ccc;
+    }
+
+    .form input[type=submit]{
+        color: #ccc;
+        font-size: 25px;
+        border: none;
+        width: 280px;
+        height: 56px;
+        background-color: #363a6d;
+        cursor: pointer;
+    }
+
+    .form .sben{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .dvl{
+        margin-top: 80px;
+        margin-left: 5%;
+        float: left;
+        width: 46%;
+        max-height: 60%;
+        background-color: rgba(33, 35, 67,0.7);
+
+    }
+    
+    .dvl ul{
+        list-style-position: inside;
+        margin-left: 4%;
+        margin-top: 4%;
+
+    }
+
+    .dvl ul li{
+        color:white;
+        margin-bottom: 5%;
+    }
+
+    .anuncyo{
+        width: 100%;
+        height: 40%;
+        padding: 40px 0;
+        background-color: #dddddd;
+        text-align: center;
+    }
+
+    .anuncyo p{
+        width: 698px;
+        margin: 12px 0;
+        display:inline-block;
+        text-align: justify;
+    }
+
+    .seta{
+        margin-top: 2%;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url("../yp1/arrow.png");
+        background-size: 100% 100%;
+    }
+      
+    
+    .texth2{
+        padding: 90px 0;
+        text-align: center;
+        color:#462663;
+        font-weight: normal;
+        margin-bottom: 30px;
+        
+    }
+
+    .c1{        
+        width: 33.333%;
+        float: left;
+        padding: 25px;
+    }
+
+    .c1 img{
+        width: 60px;
+        
+    }
+
+        
+    .textcont p {
+        word-wrap: break-word;
+        width: 100%;
+    }
+
+
+    .contsec{
+        border-bottom:1px solid gray;
+        text-align: center;
+        height: 470px;
+        width: 100%;
+    }
+
+    .rodape p{
+        
+        text-align: center;
+    }
+
+    .rodape{
+                
+        font-weight: 5px;
+    }
+
+    
+    @media screen and (max-width: 910px){
+
+
+        
+        .header{
+            text-align: center;
+        }
+
+        .dvl{
+            display: inline-block;
+            text-align: center;
+            margin-top: 35px;
+            width: 70%;
+            margin-left: 15%;
+        }
+        
+        .banner{
+            height: 900px;          
+        }
+    
+
+        .form{
+            display: inline-block;
+            margin-left: 15%;
+            text-align: center;
+            padding: 0;        
+            width: 70%;
+            height: auto;
+            top: 30px;
+            float: none;            
+        }
+
+        .form .sben{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .seta{
+            margin-top: -3%;
+            
+        } 
+    }
+
+    @media screen and (max-width: 715px){
+
+        .anuncyo p{
+            width: 90%;
+            
+        }
+
+        .anuncyo{
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .seta{
+            top: 60px;
+            
+        }
+    }
